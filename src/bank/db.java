@@ -14,7 +14,7 @@ import java.sql.SQLException;
 
 public class db {
     private final String username="root";
-    private final String password="1E5N1D1denizz*";
+    private final String password="*";
     private final String dbUrl="jdbc:mysql://localhost:3306/banking";
     public Connection getConnection() throws SQLException {
         return DriverManager.getConnection(dbUrl,username,password);
